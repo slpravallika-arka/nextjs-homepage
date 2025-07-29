@@ -15,7 +15,7 @@ export default function Home() {
   const [isFinished, setIsFinished] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
   const [showReview, setShowReview] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(5);
+  const [timeLeft, setTimeLeft] = useState(10);
 
   // ✅ Load questions from public/questions.json
   useEffect(() => {
@@ -52,7 +52,7 @@ export default function Home() {
     if (current + 1 < questions.length) {
       setCurrent(current + 1);
       setSelected(null);
-      setTimeLeft(15);
+      setTimeLeft(10);
     } else {
       setIsFinished(true);
     }
