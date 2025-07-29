@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Berlin", "Madrid", "Paris", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Which language is used to style web pages?",
+    "options": ["HTML", "jQuery", "CSS", "Python"],
+    "answer": "CSS"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Saturn", "Mars", "Venus"],
+    "answer": "Mars"
+  }
+]
